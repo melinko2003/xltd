@@ -1,0 +1,14 @@
+
+
+RUNTIME		Read in project.config, { set => $project / $version / $function }
+RUNTIME  	/opt/xltd/$project/version => $version	=> lcurran.dev:5001/kv_vault/version => { 'version' => '0.0.1-Alpha'
+RUNTIME		Prometheus Metrics ??
+RUNTIME  	/opt/xltd/$project/metrics		=> lcurran.dev:5001/kv_vault/metrics
+RUNTIME  	/opt/xltd/$project/login     => $token	=> lcurran.dev:5001/kv_vault/login
+RUNTIME		Read in $functions
+RUNTIME  	/opt/xltd/$project/$function => Run()	=> lcurran.dev:5001/kv_vault/create_key/{metrics,version,api}
+  			/opt/xltd/$project/$function => Run()	=> lcurran.dev:5001/kv_vault/read_key/{metrics,version,api}
+			/opt/xltd/$project/$function => Run()	=> lcurran.dev:5001/kv_vault/update_key/{metrics,version,api}
+  			/opt/xltd/$project/$function => Run()	=> lcurran.dev:5001/kv_vault/delete_key/{metrics,version,api}
+  			/opt/xltd/$project/$function => Run()	=> lcurran.dev:5001/kv_vault/import_key/{metrics,version,api}
+  			/opt/xltd/$project/$function => Run()	=> lcurran.dev:5001/kv_vault/export_key/{metrics,version,api}
