@@ -1,28 +1,4 @@
 
-Text Channel
-xltd
-Search
-
-Welcome to #xltd!
-This is the start of the #xltd private channel.
-
-Add members or roles
-
-Edit Channel
-
-melinko2003
- 
-(Only you can see this channel)
-January 11, 2022
-
-melinko2003 — Today at 2:19 PM
-Python Serverless implementation
-
-$USER_ID Admin / UserID
-$FUNCTION User / Project / Function / Export / Import  
-
-How it should work ...
-
 
 Python Serverless implementation
 
@@ -32,17 +8,7 @@ $FUNCTION User / Project / Function / Export / Import
 How it should work ...
 
 
-Flow: 
 
-0) Admin creates a project ( cli:$ ./xltd --mode=admin --create-project <project_name> )
-1) Admin creates user(s) ( cli:$ ./xltd --mode=admin --create-user <your_email> .. )
-2) Admin Updates project to contain user ( cli:$ ./xltd --mode=admin --update-project --add-user/--add-user-id <email>/<user_id> --role ( Admin | User | Svc  )
-3) Admin sets role on user see Aboves example: ( Admin (R+W+X), User ( R+W ), Svc ( R+X ) )
-4) Users will be forced to change password on first usage or reset. 
-( cli:$ ./xltd --mode=user --update --user <email> --user-password <your_new_password> .. )
-4b) Reset User 
-( cli:$ ./xltd --mode=admin --update --user <email> --reset-password .. )
-5) User logs in after the reset and can create a function in the "functions" pipeline
 
 Python3 WSGI via VENV.
 

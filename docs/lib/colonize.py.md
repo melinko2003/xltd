@@ -3,7 +3,7 @@
     #
 
     class colonize():
-        ## Init of users class
+        ## Init of colonize class
         def __init__(self, ???) :
 
         def create_colony(self):

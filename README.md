@@ -5,6 +5,7 @@ eXaLTeD: Enterprise Ready Python Serverless Implementation ( FaaS )
 
 [Installation](docs/design/installation.md)  
 [Getting Started w/CLI](docs/design/getting_started_cli.md)  
+[Architecture](docs/design/architecture.md)  
 
 ## Library Documents
 
