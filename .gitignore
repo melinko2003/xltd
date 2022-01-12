@@ -1,3 +1,7 @@
+# Project related
+runtime/shared/*
+runtime/isolation/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -15,6 +19,7 @@ downloads/
 eggs/
 .eggs/
 # lib/
+.idea
 lib64/
 parts/
 sdist/
@@ -102,11 +107,11 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+#.env
 .venv
-env/
+#env/
 venv/
-ENV/
+#ENV/
 env.bak/
 venv.bak/
 
