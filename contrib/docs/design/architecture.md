@@ -1,16 +1,20 @@
 # Architecture ( For Nowish )
 
-	Python3 ->
+	Python3 ( venv ~/xltd ) ->
 		~/xltd/bin ->
 			~/xltd/bin/python3.11
-			~/xltd/bin/xltd ( #!/opt/xltd/bin/python3.11 ) 
-			~/xltd/bin/xltd-pipeline-linter
-			~/xltd/bin/xltd-pipeline-security
-			~/xltd/bin/xltd-runtime
-
-		~/xltd/etc ->
-			~/xltd/etc/xltd.conf
-			~/xltd/etc/xltd-runtime.conf
+			~/xltd/bin/python3
+			~/xltd/bin/python
+		~/xltd/xltd ->
+			~/xltd/xltd/__init__.py
+			~/xltd/xltd/colonize.py
+			~/xltd/xltd/function.py
+			~/xltd/xltd/project.py
+			~/xltd/xltd/runtime.py
+			~/xltd/xltd/user.py
+			~/xltd/xltd/util.py
+		~/xltd/deps ->
+			~/xltd/deps/requirements.txt
 
 		~/xltd/env ->
 			~/xltd/env/$project_id ->

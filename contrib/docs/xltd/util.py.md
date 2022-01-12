@@ -6,8 +6,8 @@
         ## Init of util class
         def __init__(self, ???) :
 
-        def import(self):
+        def import_item(self,item):
 
-        def export(self):
+        def export_item(self,item):
 
         def new_install(self):
