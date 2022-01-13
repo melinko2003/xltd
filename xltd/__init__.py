@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # import xltd
+# Ideal method of execution is like pip ... ie. 
+# python3 -m xltd --mode= ...
 
 # Parser Arguements
 parser = argparse.ArgumentParser(description='Help Construct Messages')
@@ -65,6 +67,10 @@ parser.add_argument('-ni','--new-install', type=str, required=True, help='')
 parser.add_argument('-ii','--import-item', type=str, required=True, help='')
 # --export-item : Imports ( user , project , function , runtime ) ( Admin Only )
 parser.add_argument('-ei','--export-item', type=str, required=True, help='')
+
+# Colonize
+
+
 
 # Parser Arguements
 
