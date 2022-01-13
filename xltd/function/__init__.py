@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#
+# import xltd.function
 
 class function():
     ## Init of function class

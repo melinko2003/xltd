@@ -3,22 +3,22 @@ eXaLTeD: Enterprise Ready Python Serverless Implementation ( FaaS )
 
 ## Design Documents
 
-[Installation](docs/design/installation.md)  
-[Getting Started w/CLI](docs/design/getting_started_cli.md)  
-[Architecture](docs/design/architecture.md)  
+[Installation](contrib/docs/design/installation.md)  
+[Getting Started w/CLI](contrib/docs/design/getting_started_cli.md)  
+[Architecture](contrib/docs/design/architecture.md)  
 
 ## Library Documents
 
-[User Lib Documentation](docs/lib/user.md)  
-[Project Lib Documentation](docs/lib/project.md)  
-[Function Lib Documentation](docs/lib/function.md)  
-[Util Lib Documentation](docs/lib/util.md)  
-[Colonize Lib Documentation](docs/lib/colonize.md)  
+[User Lib Documentation](contrib/docs/lib/user.md)  
+[Project Lib Documentation](contrib/docs/lib/project.md)  
+[Function Lib Documentation](contrib/docs/lib/function.md)  
+[Util Lib Documentation](contrib/docs/lib/util.md)  
+[Colonize Lib Documentation](contrib/docs/lib/colonize.md)  
 
 ## project Environment ( env )
 
-[ENV Subsection](env/ENV.md) 
+[ENV Subsection](contrib/env/ENV.md) 
 
 ## project Runtime ( runtime )
 
-[RUNTIME Subsection](runtime/RUNTIME.md) 
+[RUNTIME Subsection](contrib/runtime/RUNTIME.md) 

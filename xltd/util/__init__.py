@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#
+# import xltd.util
 
 class util():
 	## Init of util class
