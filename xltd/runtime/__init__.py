@@ -11,14 +11,14 @@
 class runtime():
 	## Init of runtime class
 	def __init__(	self,
-					auth_token="admin", # Setting Admin here until Auth system is in place.
-					project_id="1",
-					location="/var/xltd/runtime/", 
-					runtime_mode="isolation",
-					python_version="default",		
-					function_id="1000000",
-					function_version="1",  
-					function_name="hello_world" ):
+		auth_token="admin", # Setting Admin here until Auth system is in place.
+		project_id="1",
+		location="/var/xltd/runtime/", 
+		runtime_mode="isolation",
+		python_version="default",		
+		function_id="1000000",
+		function_version="1",  
+		function_name="hello_world" ):
 		# Security First ( Login/Auth method )
 		roles=['admin'] # Roles allowed to access runtime
 		# VERY VERY Basic Challenge ( todo: revamp auth )
@@ -37,13 +37,14 @@ class runtime():
 		self.function_name=function_name
 
 		# Runtime Mapping 
-		self.runtime_map=(	self.project_id,
-							self.location,
-							self.runtime_mode,
-							self.python_version,
-							self.function_id,
-							self.function_version,
-							self.function_name )
+		self.runtime_map=(	
+			self.project_id,
+			self.location,
+			self.runtime_mode,
+			self.python_version,
+			self.function_id,
+			self.function_version,
+			self.function_name )
 
 	# Create runtime ( Admin, User, Svc )
 	def create_runtime(self,runtime=self.runtime_map):
